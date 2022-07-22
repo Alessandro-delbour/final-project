@@ -1,0 +1,376 @@
+.ann
+{
+	width: 30%;
+}
+
+Body
+{
+	text-align: center;
+	background-color: skyblue;
+}
+
+/*accueille*/
+
+header
+{
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+	background-image: url(https://www.lepredesanimo.fr/wp-content/uploads/2021/03/photo-visite4-1-1536x1152.jpg);
+}
+
+.présentation
+{
+	font-size: 400%;
+	color: white;
+}
+
+.sommaire	
+{
+	padding-top: 100px;
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 200%;
+}
+
+/*accueille fin*/
+
+/*qui some nous*/
+
+.title_qui_somme_nous
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	padding-right: 500px;
+}
+
+.Qui_somme_nous
+{
+	font-family: 'Nunito Sans';
+}
+
+.p1
+{
+	padding-right: 250px;
+}
+
+.i1
+{
+	padding-left: 700px;
+	width: 30%;
+	margin-top: -150px;
+}
+
+.fonctionnement
+{
+	font-family: 'Nunito Sans';
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+.i2
+{
+	padding-right: 800px;
+	width: 25%;
+	margin-top: -80px;
+}
+
+.position
+{
+	padding-top: 70px;
+	font-family: 'Nunito Sans';
+}
+
+.block_img
+{
+	padding-top: 100px;
+}
+
+.i4, .i5
+{
+	width: 252px;
+	height: 194px
+}
+
+/*qui somme nous fin*/
+
+/*que fesont nous*/
+
+.que_fesont_nous
+{
+	padding-top: 150px;
+}
+
+.title_que_fesont_nous
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	padding-right: 250px;
+}
+
+.p2
+{
+	font-family: 'Nunito Sans';
+	padding-left: 250px;
+}
+
+.i1-2
+{
+	padding-top: 55px;
+	padding-bottom: 55px;
+	width: 25%;
+}
+
+.p3
+{
+	font-family: 'Nunito Sans';
+	padding-right: 250px;
+}
+
+.title_que_fesont_nous-2
+{
+	padding-top: 200px;
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 400%;
+	padding-bottom: 350px;
+	background-image: url(https://www.lepredesanimo.fr/wp-content/uploads/2021/03/photo-visite-2-1536x1152.jpg);
+	color: white;
+}
+
+/*fin de que fesont nous*/
+
+/*Quels sont nos activiter*/
+
+.title_quels_sont_nos_activités
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	padding-top: 100px;
+}
+
+.p4
+{
+	font-family: 'Nunito Sans';
+}
+
+.title_quels_sont_nos_activités-2
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	padding-top: 100px;
+	padding-right: 600px;
+}
+
+.p5
+{
+	font-family: 'Nunito Sans';
+	padding-right: 600px;
+}
+
+.i1-3
+{
+	padding-left: 700px;
+	margin-top: -200px;
+	width: 30%;
+}
+
+.title_quels_sont_nos_activités-3
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	padding-top: 200px;
+	padding-left: 600px;
+}
+
+.p6
+{
+	padding-left: 600px;
+	font-family: 'Nunito Sans';
+}
+
+.i2-3
+{
+	padding-right: 700px;
+	margin-top: -230px;
+	width: 40%;
+}
+
+.title_quels_sont_nos_activités-4
+{
+	padding-top: 300px;
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 500%;
+}
+
+.anniversaire
+{
+	background-image: url(https://www.lepredesanimo.fr/wp-content/uploads/2021/03/photo-anniversaire8-1536x1152.jpg);
+	color: white;
+	font-family: 'Nunito Sans';
+}
+
+.p7, .p8
+{
+	background-color: green;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+
+/*fin quels sont nos activiter*/
+.a
+{
+	color: lightgray;
+}
+
+.all
+{
+	padding-top: 100px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.icone_pré
+{
+	width: 5%;
+}
+
+.navbar
+{
+	background-color: white;
+   position: fixed;
+   top: 0px;
+   width:100%;
+   height: 69px;
+   left: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 5px 2px 2px 2px white;
+   font-family: 'Edu VIC WA NT Beginner';
+}
+
+select
+{
+	border: none;
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 100%;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+/*tout les élement en rouge*/
+
+.red
+{
+	color: red;
+}
+
+/*index2*/
+
+.contact
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+}
+
+.contact-p, .contact-p-2
+{
+	font-family: 'Nunito Sans';
+}
+
+.button
+{
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact-body
+{
+	background-image: url(https://www.lepredesanimo.fr/wp-content/uploads/2021/03/photo-benevole-1-1024x768.jpg);
+	color: white;
+	text-align: center;
+	background-size: 100%;
+	padding-top: 100px;
+}
+
+.a-1
+{
+	color: white;
+}
+/*fin index2*/
+
+/*index2*/
+
+.title-visite, .title-visite-2
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+}
+
+.p-visite, .prévention
+{
+	font-family: 'Nunito Sans';
+}
+
+.visite-body
+{
+	background-image: url(https://www.lepredesanimo.fr/wp-content/uploads/2021/03/photo-atelier-2.jpg);
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+select
+{
+	border-radius: 10px/10px;
+}
+
+.all-visite
+{
+	padding-top: 100px;
+}
+/*fin index2*/
+
+/*index3*/
+
+.bénévole-body
+{
+	background-image: url(https://scontent.ftun1-2.fna.fbcdn.net/v/t1.6435-9/83011358_478742939675156_487960082131189760_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=973b4a&_nc_ohc=TbK6yQlnUzsAX_tqB_c&_nc_ht=scontent.ftun1-2.fna&oh=00_AT_k2akTCFXqxFPvTamwCPSZhaDebEcYdPj7q4ynEO-J4A&oe=62FF1F85);
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+.title-benévole
+{
+	font-family: 'Edu VIC WA NT Beginner';
+	font-size: 250%;
+	background-color: green;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.p-bénévole, .p-bénévole-2, .préventiton-2, .p-bénévole-3, .ul-bénévole
+{
+	font-family: 'Nunito Sans';
+	background-color: green;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+label
+{
+	font-family: 'Nunito Sans';
+	background-color: royalblue;
+}
+
+input
+{
+	border-radius: 10px/10px;
+}
+/*fin index3 */
