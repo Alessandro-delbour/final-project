@@ -28,40 +28,32 @@
 			<br>
 			<p class="p-bénévole-3">Si tout ça vous va renplissez ce formulaire pour nous sousmettre votre candidature !!</p>
 
-			<form class="bénévola">
-				<label for="name">nom</label>
-				<input type="text" name="votre nom">
-				<br>
-				<br>
-				<label for="first_name">prénom</label>
-				<input type="text" name="votre prénom">
-				<br>
-				<br>
-				<label for="age">age</label>
-				<input type="number" name="votre age">
-				<br>
-				<br>
-				<label for="birthday">date de naissance</label>
-				<input type="date" name="votre date de naissance">
-				<br>
-				<br>
-				<label for="ville">ville/village/commune</label>
-				<input type="text" name="votre village/ville/commune">
-				<br>
-				<br>
-				<label for="email">email</label>
-				<input type="email" name="votre email">
-				<br>
-				<br>
-				<label for="tél">téléphone</label>
-				<input type="tel" name="votre numéro de téléphone">
-				<br>
-				<br>
-				<button type="button" class="btn btn-warning">Soumettre son inscription 😎</button>
-			</form>
+			  <form name="loginForm" onsubmit="return validateForm(event) ">
+     			<label for="Name">nom:</label>
+     			<input type="text" name="name" placeholder="nom" />
+     			<br>
+     			<br>
+     			<label for="age">age:</label>
+     			<input type="number" name="age" placeholder="13 ans" />
+     			<br>
+     			<br>
+     			<label for="email">email:</label>
+     			<input type="email" name="email" placeholder="exemple@exemple.com" />
+     			<br>
+     			<br>
+     			<label for="ville">ville/commune/village:</label>
+     			<input type="text" name="ville" placeholder="ergersheim" />
+     			<br>
+     			<br>
+     			<label for="tel">numéro de téléphone:</label>
+     			<input type="tel" name="tel" placeholder="+216 ** *** ***" />
+     			<br>
+     			<br>
+     			<button type="submit" class="btn btn-warning">Soumettre son inscription 😎</button>
+   			</form>
 			<h5 class="préventiton-2">Merci de ne pas faire des inscriptions de gaugenard.</h5>
 		</div>
 
-
+		<script type="text/javascript" src="C:\Users\Dell\Desktop\gomycode-2022\développement_web\final project\interactive.js"></script>
 	</body>
 </html>

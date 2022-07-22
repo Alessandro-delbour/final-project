@@ -250,12 +250,6 @@ a
    font-family: 'Edu VIC WA NT Beginner';
 }
 
-select
-{
-	border: none;
-	font-family: 'Edu VIC WA NT Beginner';
-	font-size: 100%;
-}
 
 ul
 {
@@ -302,6 +296,14 @@ ul
 {
 	color: white;
 }
+
+.output, .px
+{
+	font-family: 'Nunito Sans';
+	font-size: 150%;
+	color: black;
+	background-color: white;
+}
 /*fin index2*/
 
 /*index2*/
@@ -325,14 +327,20 @@ ul
 	text-align: center;
 }
 
-select
-{
-	border-radius: 10px/10px;
-}
 
 .all-visite
 {
 	padding-top: 100px;
+}
+
+.visite
+{
+	padding-bottom: 50px;
+}
+
+.prévention
+{
+	padding-top: 50px;
 }
 /*fin index2*/
 
@@ -355,7 +363,7 @@ select
 	margin-right: 400px;
 }
 
-.p-bénévole, .p-bénévole-2, .préventiton-2, .p-bénévole-3, .ul-bénévole
+.p-bénévole, .p-bénévole-2, .p-bénévole-3, .ul-bénévole
 {
 	font-family: 'Nunito Sans';
 	background-color: green;
@@ -366,11 +374,17 @@ select
 label
 {
 	font-family: 'Nunito Sans';
-	background-color: royalblue;
 }
 
 input
 {
 	border-radius: 10px/10px;
 }
+
+.préventiton-2
+{
+	padding-top: 50px;
+	color: black ;
+}
+
 /*fin index3 */

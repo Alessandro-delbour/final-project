@@ -19,54 +19,36 @@
 			</div>
 			<br>
 			<div class="visite">
-				<select>
-					<option>jour</option>
-					<option>Lundi</option>
-					<option>Mardi</option>
-					<option>Mercredi</option>
-					<option>Jeudi</option>
-					<option>Vendredi</option>
-					<option>Samedi</option>
-					<option>dimanche</option>
-				</select>
+				
+				<label for="day">jour</label>
+				<input type="text" name="day" placeholder="lundi" id="input-1">
 
-				<select>
-					<option>mois</option>
-					<option>janvier</option>
-					<option>février</option>
-					<option>mars</option>
-					<option>avril</option>
-					<option>mai</option>
-					<option>juin</option>
-					<option>juillet</option>
-					<option>aout</option>
-					<option>septembre</option>
-					<option>octobre</option>
-					<option>novembre</option>
-					<option>decembre</option>
-				</select>
+				<label for="month">mois</label>
+				<input type="text" name="month" placeholder="janvier" id="input-2">
 
-				<select>
-					<option>années</option>
-					<option>2022</option>
-					<option>2023</option>
-				</select>
+				<label for="year">année</label>
+				<input type="text" name="year" placeholder="2022" id="input-3">
 
-				<select>
-					<option>type d'activité</option>
-					<option>Atelier nature 2h30</option>
-					<option>Viste de la ferme 1h30</option>
-					<option>Anniversaire 2h30</option>
-					<option>atelier pour personne handicapée</option>
-				</select>
+				<label for="visite">type d'activiter</label>
+				<input type="text" name="visite" placeholder="voir page principal" id="input-4">
 
-				<button type="button" class="btn btn-success">confirmer votre rendez-vous</button>
+				<label for="date">date exacte</label>
+				<input type="text" name="date" placeholder="22" id="input-5">
+
+			</div>
+
+				<button type="button" class="btn btn-success comfirm">confirmer votre rendez-vous</button>
 				<h5 class="prévention">Si jamais vous avez un inprévue n'oubliez pas de nous <br>
 				prévenir 24h à l'avance.</h5>
 
 				<h1 class="title-visite-2">Rendez-vous prévu:</h1>
+		</div>
+		<div class="output">
+			<div>
+				<div class="x"></div>
 			</div>
 		</div>
 
+		<script type="text/javascript" src="interactive.js"></script>
 	</body>
 	</html>
